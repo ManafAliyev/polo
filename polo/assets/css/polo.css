@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    color: #002b70;
+}
+
+.navbar .giris{
+  position: relative;
+  border-color: #002b70;
+  border-radius: 20px;
+  border-style:solid;
+  border-width: 4px;
+  height: 28px;
+  width: 110px;
+  
+
+}
+
+.navbar .girisyap{
+    margin: 10px;
+    text-decoration: none;
+}
+.navbar .siparis{
+  text-decoration: none;
+}
+.navbar .search{
+  background: #f4f4f4;
+  border-radius: 4px;
+ 
+  
+  position: relative;
+  color: #282828;
+  height: 45px;
+  font-weight: bold;
+  padding: 0 15px;
+
+  
+
+}
+
