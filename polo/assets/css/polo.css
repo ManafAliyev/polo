@@ -1,39 +1,110 @@
-*{
-    box-sizing: border-box;
-    color: #002b70;
+* {
+  box-sizing: border-box;
+  color: #002b70;
+}
+.navbar{
+  display: flex;
+  height: 80px;
+  width:100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.navbar .giris{
+.navbar .giris {
   position: relative;
-  border-color: #002b70;
   border-radius: 20px;
-  border-style:solid;
+  border: solid  #002b70;
   border-width: 4px;
   height: 28px;
   width: 110px;
-  
-
 }
 
-.navbar .girisyap{
-    margin: 10px;
-    text-decoration: none;
-}
-.navbar .siparis{
+.navbar .girisyap {
+  left: 15px;
+  top: 2px;
+ position: absolute;
   text-decoration: none;
 }
-.navbar .search{
-  background: #f4f4f4;
-  border-radius: 4px;
- 
-  
-  position: relative;
-  color: #282828;
-  height: 45px;
-  font-weight: bold;
-  padding: 0 15px;
 
-  
-
+.navbar .siparis {
+  text-decoration: none;
 }
 
+.navbar .search  {
+  background: #f4f4f4;
+  border-radius: 4px;
+  position: relative;
+  color: #282828;
+  height: 30px;
+  width: 250px;
+  font-weight: bold;
+  padding: 15px;
+  left: 55px;
+  border: solid 0.5px grey;
+  display: flex;
+}
+.navbar .srcbtn i{
+  position:relative;
+  left: -170px;
+}
+.taggedLinks{
+  position: absolute;
+  left: 210px;
+  font-size: 13px;
+  top: 65px;
+}
+.navbar .poloImage{
+  position: relative;
+  right: 100px;
+}
+.navbar .buttonright{
+  display: flex;
+  justify-content: space-around;
+  width: 290px;
+  font-size: 13.5px;
+}
+.siparis{
+  top: 3px;
+  position: relative;
+}
+.heart i{
+  position: relative;
+  top: 5px;
+
+}
+.shop i{
+  position: relative;
+  top: 5px;
+
+}
+.select{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0px;
+  height: 40px;
+  width: 100%;
+  background-color: #1a2a4a;
+  
+}
+.select p{
+  color: white;
+  width: 80px;
+}
+.famale p{
+  position: relative;
+  left: 15px;
+}
+.child p{
+  position: relative;
+  left: 20px;
+}
+.shoesbag p{
+  position: relative;
+  right: 25px;
+}
+.company p{
+  position: relative;
+  right: 20px;
+}
